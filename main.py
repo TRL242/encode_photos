@@ -2,9 +2,9 @@ from PIL import Image
 import os.path
 from os import path
 import math
-from Crypto.Cipher import AES
-from Crypto.Hash import SHA256
-from Crypto import Random
+from Cryptodome.Cipher import AES
+from Cryptodome.Hash import SHA256
+from Cryptodome import Random
 import base64
 from colorama import init
 from termcolor import cprint
